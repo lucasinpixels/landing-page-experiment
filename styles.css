@@ -14,13 +14,14 @@
 body {
   margin: 0;
   font-family: 'Manrope', sans-serif;
-  background: var(--lime);
+  background: var(--light);
   color: var(--text);
 }
 
 .page-frame {
-  width: min(1180px, calc(100% - 44px));
-  margin: 34px auto;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
   background: transparent;
 }
 
@@ -401,7 +402,7 @@ footer {
 }
 
 @media (max-width: 1024px) {
-  .page-frame { width: calc(100% - 26px); margin: 14px auto; }
+  .page-frame { width: 100%; margin: 0 auto; }
   .nav { display: none; }
   .hero { min-height: 760px; }
   .floating-card { width: 120px; height: 160px; font-size: 46px; }
@@ -460,7 +461,7 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .page-frame { width: calc(100% - 14px); }
+  .page-frame { width: 100%; }
   .logo-text { font-size: 20px; }
   .header { padding: 8px; }
   .hero-content { margin-top: 58px; }
