@@ -1,0 +1,71 @@
+{
+  "version": "0.4",
+  "title": "Landing Page - Psicóloga Maria Eduarda",
+  "type": "page",
+  "content": [
+    {
+      "id": "sec_hero",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {"unit":"px","top":"56","right":"20","bottom":"56","left":"20","isLinked":false},
+        "background_background": "gradient",
+        "background_color": "#F0EDE4",
+        "background_color_b": "#E3D6C5"
+      },
+      "elements": [
+        {"id":"hero_h1","elType":"widget","widgetType":"heading","settings":{"title":"Psicóloga online para mulheres com emoções intensas, medo de abandono e relacionamentos instáveis","header_size":"h1","typography_typography":"custom","typography_font_family":"Cormorant Garamond","typography_font_size":{"unit":"px","size":40},"title_color":"#3F372F","_animation":"fadeInUp"}},
+        {"id":"hero_p1","elType":"widget","widgetType":"text-editor","settings":{"editor":"Atendimento psicológico com foco em regulação emocional, borderline, DBT e TCC.","typography_typography":"custom","typography_font_family":"Inter","text_color":"#3F372F","_animation":"fadeIn"}},
+        {"id":"hero_p2","elType":"widget","widgetType":"text-editor","settings":{"editor":"Um espaço seguro para entender seus padrões emocionais e desenvolver formas mais saudáveis de lidar com o que você sente.","typography_typography":"custom","typography_font_family":"Inter","text_color":"#3F372F","_animation":"fadeIn"}},
+        {"id":"hero_info","elType":"widget","widgetType":"text-editor","settings":{"editor":"Psicóloga Maria Eduarda<br>CRP 07/43331<br>Atendimento online","text_color":"#788990","_animation":"fadeInUp"}},
+        {"id":"hero_btn","elType":"widget","widgetType":"button","settings":{"text":"Agendar consulta pelo WhatsApp","link":{"url":"https://wa.me/5555999070327"},"align":"left","button_background_color":"#974315","button_text_color":"#FFFFFF","border_radius":{"unit":"px","size":999},"box_shadow_box_shadow_type":"yes","box_shadow_box_shadow":{"horizontal":0,"vertical":8,"blur":20,"spread":0,"color":"rgba(151,67,21,0.25)"},"hover_background_color":"#7F3612","_animation":"fadeInUp"}}
+      ]
+    },
+    {
+      "id":"sec_pain","elType":"container","isInner":false,
+      "settings":{"content_width":"boxed","flex_direction":"column","padding":{"unit":"px","top":"48","right":"20","bottom":"48","left":"20","isLinked":false},"background_color":"#FFFFFF"},
+      "elements":[
+        {"id":"pain_h2","elType":"widget","widgetType":"heading","settings":{"title":"Você sente que suas emoções mudam rápido demais?","header_size":"h2","title_color":"#3F372F","_animation":"fadeInUp"}},
+        {"id":"pain_txt","elType":"widget","widgetType":"text-editor","settings":{"editor":"Às vezes, uma mensagem não respondida, uma discussão ou uma sensação de rejeição já são suficientes para tudo sair do controle."}},
+        {"id":"pain_list_title","elType":"widget","widgetType":"heading","settings":{"title":"Você pode sentir:","header_size":"h4"}},
+        {"id":"pain_cards","elType":"container","isInner":true,"settings":{"flex_direction":"column","gap":"12"},"elements":[
+          {"id":"pain_card_1","elType":"widget","widgetType":"icon-box","settings":{"title_text":"Medo intenso de abandono","description_text":"Explosões emocionais\nVazio constante\nCiúmes ou insegurança\nDependência emocional\nImpulsividade\nRelações intensas e instáveis\nCulpa depois de reagir no impulso","box_background_color":"#F0EDE4","box_padding":{"unit":"px","top":"20","right":"20","bottom":"20","left":"20","isLinked":false},"box_border_radius":{"unit":"px","size":18},"_animation":"fadeInUp"}}
+        ]},
+        {"id":"pain_end","elType":"widget","widgetType":"text-editor","settings":{"editor":"Isso não precisa ser vivido sozinha."}},
+        {"id":"pain_btn","elType":"widget","widgetType":"button","settings":{"text":"Fale com a psicóloga pelo WhatsApp","link":{"url":"https://wa.me/5555999070327"},"button_background_color":"#974315","border_radius":{"unit":"px","size":999}}}
+      ]
+    },
+    {"id":"sec_therapy","elType":"container","isInner":false,"settings":{"content_width":"boxed","padding":{"unit":"px","top":"48","right":"20","bottom":"48","left":"20","isLinked":false},"flex_direction":"row","flex_wrap":"wrap","background_color":"#F0EDE4"},"elements":[
+      {"id":"therapy_col_text","elType":"container","isInner":true,"settings":{"width":{"unit":"%","size":100},"flex_direction":"column","gap":"12"},"elements":[
+        {"id":"therapy_h2","elType":"widget","widgetType":"heading","settings":{"title":"Terapia para regulação emocional e borderline","header_size":"h2"}},
+        {"id":"therapy_p","elType":"widget","widgetType":"text-editor","settings":{"editor":"A terapia ajuda você a compreender o que acontece antes, durante e depois das suas reações emocionais.<br><br>O objetivo não é fazer você parar de sentir.<br><br>É ajudar você a lidar melhor com emoções intensas, conflitos, frustrações e relações difíceis.<br><br>O atendimento é indicado para mulheres que buscam ajuda com:<br><br>Transtorno de personalidade borderline<br>Dificuldade de regulação emocional<br>Dependência emocional<br>Medo de rejeição ou abandono<br>Impulsividade<br>Relacionamentos instáveis<br>Oscilações de humor"}}
+      ]},
+      {"id":"therapy_visual","elType":"container","isInner":true,"settings":{"width":{"unit":"%","size":100},"background_color":"#E3D6C5","min_height":{"unit":"px","size":240},"border_radius":{"unit":"px","size":24},"box_shadow_box_shadow_type":"yes"},"elements":[]}
+    ]},
+    {"id":"sec_how","elType":"container","isInner":false,"settings":{"content_width":"boxed","padding":{"unit":"px","top":"48","right":"20","bottom":"48","left":"20","isLinked":false}},"elements":[{"id":"how_h2","elType":"widget","widgetType":"heading","settings":{"title":"Como funciona o atendimento"}},{"id":"how_txt","elType":"widget","widgetType":"text-editor","settings":{"editor":"O processo é online, individual e personalizado.<br><br>Nas primeiras sessões, a Psicóloga Maria Eduarda busca entender sua história, seus gatilhos, seus relacionamentos e suas principais dificuldades.<br><br>A partir disso, são usadas ferramentas da DBT e da TCC para ajudar você a desenvolver:<br><br>Mais consciência emocional<br>Estratégias para momentos de crise<br>Menos impulsividade<br>Relações mais saudáveis<br>Mais autonomia emocional<br>Hábitos mais estáveis"}},{"id":"how_btn","elType":"widget","widgetType":"button","settings":{"text":"Agendar atendimento online","link":{"url":"https://wa.me/5555999070327"},"button_background_color":"#974315"}}]},
+    {"id":"sec_dbt_tcc","elType":"container","isInner":false,"settings":{"content_width":"boxed","padding":{"unit":"px","top":"48","right":"20","bottom":"48","left":"20","isLinked":false},"background_color":"#F0EDE4"},"elements":[{"id":"dbt_h2","elType":"widget","widgetType":"heading","settings":{"title":"Por que DBT e TCC?"}},{"id":"dbt_p","elType":"widget","widgetType":"text-editor","settings":{"editor":"A DBT é uma abordagem muito utilizada para trabalhar emoções intensas, impulsividade e dificuldades nos relacionamentos.<br><br>A TCC ajuda a identificar pensamentos, emoções e comportamentos que mantêm ciclos de sofrimento.<br><br>Juntas, essas ferramentas ajudam você a entender seus padrões e construir respostas mais saudáveis no dia a dia."}}]},
+    {"id":"sec_about","elType":"container","isInner":false,"settings":{"content_width":"boxed","padding":{"unit":"px","top":"56","right":"20","bottom":"56","left":"20","isLinked":false},"background_color":"#FFFFFF"},"elements":[{"id":"about_h2","elType":"widget","widgetType":"heading","settings":{"title":"Sobre a Psicóloga Maria Eduarda"}},{"id":"about_txt","elType":"widget","widgetType":"text-editor","settings":{"editor":"Maria Eduarda de Castro Dias<br>Psicóloga clínica — CRP 07/43331<br><br>Formada em Psicologia pela ULBRA, com especialização em Terapia Cognitivo-Comportamental.<br><br>Atua com atendimento psicológico online para mulheres que enfrentam desregulação emocional, dependência emocional, relacionamentos instáveis e questões associadas ao borderline.<br><br>Seu trabalho é individualizado, respeitando a história, o ritmo e as necessidades de cada paciente."}},{"id":"about_photo","elType":"container","isInner":true,"settings":{"min_height":{"unit":"px","size":320},"background_color":"#E3D6C5","border_radius":{"unit":"px","size":24}},"elements":[{"id":"about_photo_txt","elType":"widget","widgetType":"heading","settings":{"title":"Foto profissional da Psicóloga","header_size":"h5","align":"center"}}]}]},
+    {"id":"sec_diff","elType":"container","isInner":false,"settings":{"background_color":"#E3D6C5","padding":{"unit":"px","top":"48","right":"20","bottom":"48","left":"20","isLinked":false}},"elements":[{"id":"diff_h2","elType":"widget","widgetType":"heading","settings":{"title":"O diferencial do atendimento"}},{"id":"diff_txt","elType":"widget","widgetType":"text-editor","settings":{"editor":"Aqui, a terapia não segue uma fórmula pronta.<br><br>Cada paciente é compreendida em sua individualidade.<br><br>O processo considera seus gostos, sua rotina, seus vínculos, suas dificuldades e a forma como você vive suas emoções.<br><br>Assim, as estratégias aprendidas em sessão fazem mais sentido para a sua vida real."}}]},
+    {"id":"sec_early","elType":"container","isInner":false,"settings":{"padding":{"unit":"px","top":"56","right":"20","bottom":"56","left":"20","isLinked":false},"background_background":"gradient","background_color":"#8D957E","background_color_b":"#788990"},"elements":[{"id":"early_h2","elType":"widget","widgetType":"heading","settings":{"title":"Você não precisa esperar chegar ao limite","title_color":"#FFFFFF"}},{"id":"early_txt","elType":"widget","widgetType":"text-editor","settings":{"editor":"Muitas mulheres procuram ajuda apenas depois de uma crise, uma briga ou um término doloroso.<br><br>Mas a terapia também pode ajudar antes que tudo fique insustentável.<br><br>Buscar apoio é uma forma de cuidar de si com mais consciência, não um sinal de fraqueza.","text_color":"#FFFFFF"}},{"id":"early_btn","elType":"widget","widgetType":"button","settings":{"text":"Comece sua terapia online","link":{"url":"https://wa.me/5555999070327"},"button_background_color":"#974315"}}]},
+    {"id":"sec_faq","elType":"container","isInner":false,"settings":{"padding":{"unit":"px","top":"56","right":"20","bottom":"56","left":"20","isLinked":false},"background_color":"#FFFFFF"},"elements":[{"id":"faq_h2","elType":"widget","widgetType":"heading","settings":{"title":"Dúvidas frequentes"}},{"id":"faq_acc","elType":"widget","widgetType":"accordion","settings":{"accordion":[{"tab_title":"Preciso ter diagnóstico de borderline para começar?","tab_content":"Não. Você pode iniciar a terapia mesmo sem diagnóstico fechado. Se você sente emoções intensas, medo de abandono, impulsividade ou instabilidade nos relacionamentos, a terapia pode ajudar a compreender esses padrões."},{"tab_title":"A terapia ajuda na regulação emocional?","tab_content":"Sim. A terapia oferece ferramentas para reconhecer gatilhos, nomear emoções e desenvolver formas mais saudáveis de lidar com situações difíceis."},{"tab_title":"Como é o atendimento online?","tab_content":"As sessões acontecem por videochamada, em horário agendado. Você precisa apenas de um espaço com privacidade e conexão estável."},{"tab_title":"A terapia é só para quem está em crise?","tab_content":"Não. A terapia também é indicada para quem quer se conhecer melhor, prevenir novos ciclos de sofrimento e construir relações mais saudáveis."}],"border_width":{"unit":"px","top":"1","right":"1","bottom":"1","left":"1","isLinked":true},"border_color":"#E3D6C5"}}]},
+    {"id":"sec_final","elType":"container","isInner":false,"settings":{"padding":{"unit":"px","top":"60","right":"20","bottom":"60","left":"20","isLinked":false},"background_color":"#F0EDE4"},"elements":[{"id":"final_h2","elType":"widget","widgetType":"heading","settings":{"title":"Suas emoções não precisam continuar decidindo por você"}},{"id":"final_txt","elType":"widget","widgetType":"text-editor","settings":{"editor":"Com acompanhamento psicológico, é possível entender seus padrões emocionais e desenvolver novas formas de lidar com intensidade, medo, impulsividade e relações difíceis.<br><br>Agende sua consulta online com a Psicóloga Maria Eduarda.<br><br>WhatsApp: 55 99907-0327"}},{"id":"final_btn","elType":"widget","widgetType":"button","settings":{"text":"Falar pelo WhatsApp","link":{"url":"https://wa.me/5555999070327"},"button_background_color":"#974315","hover_background_color":"#7F3612"}}]}
+  ],
+  "page_settings": {
+    "hide_title": "yes",
+    "global_colors": [
+      {"_id":"primary_terracotta","title":"Primary Terracotta","color":"#974315"},
+      {"_id":"dark_terracotta","title":"Dark Terracotta","color":"#7F3612"},
+      {"_id":"secondary_dolphin_blue","title":"Secondary Dolphin Blue","color":"#788990"},
+      {"_id":"support_sage_green","title":"Support Sage Green","color":"#8D957E"},
+      {"_id":"background_pearl","title":"Background Pearl","color":"#F0EDE4"},
+      {"_id":"soft_background_rose_beige","title":"Soft Background Rosé Beige","color":"#E3D6C5"},
+      {"_id":"text_graphite_brown","title":"Text Graphite Brown","color":"#3F372F"}
+    ],
+    "global_typography": [
+      {"_id":"headline_serif","title":"Headline Serif","typography_typography":"custom","typography_font_family":"Cormorant Garamond"},
+      {"_id":"body_sans","title":"Body Sans","typography_typography":"custom","typography_font_family":"Inter"}
+    ]
+  }
+}
